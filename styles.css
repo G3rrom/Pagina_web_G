@@ -1,1 +1,4 @@
-
+input::placeholder {
+    color: #999; /* Color más apagado para el placeholder */
+  }
+  
