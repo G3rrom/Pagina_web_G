@@ -19,17 +19,17 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       return;
     }
   
-    // Aquí puedes enviar los datos del formulario a tu servidor
+   
     console.log("Nombre:", nombre);
     console.log("Edad:", edad);
     console.log("Correo:", correo);
   
-    // Limpiar formulario
+   
     document.getElementById("nombre").value = "";
     document.getElementById("edad").value = "";
     document.getElementById("correo").value = "";
   
-    // Mostrar mensaje de éxito
+  
     mostrarMensaje("Datos enviados correctamente.");
   });
   
